@@ -30,7 +30,7 @@ function App() {
       <div className='container'>
         <div className='row'>
           <div className='col-7'>
-            <h2 style={{textAlign:'center'}}>Lista de Librosa</h2>
+            <h2 style={{textAlign:'center'}}>Lista de Libros</h2>
             <Booklist book={book} setBook={setBook} books={books} setListUpdated={setListUpdated} />
           </div>
           <div className='col-5'>
